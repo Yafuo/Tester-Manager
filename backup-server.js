@@ -17,7 +17,7 @@ const EventEmitter = require('events');
 const emitter = new EventEmitter()
 emitter.setMaxListeners(50)
 //----------------------------KHAI BAO BIEN----------------------------------//
-var HOST = '203.128.241.216';
+var HOST = '18.191.162.114';
 var PORT =  3000;
 var key ;
 var name;
