@@ -1,6 +1,6 @@
 xg = yg = 0;
 SttA = SttB  = 0;
-		var socket = io.connect('http://127.0.0.1:3000');
+		var socket = io.connect('http://18.191.162.114:3000');
 		 socket.on("Thietbi-da-chon",function(data){
 			 data.forEach(function(i){
 				if (i =="Device01") document.getElementById("Device01").disabled = true;
