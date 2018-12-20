@@ -7,7 +7,7 @@ const net = require('net');
 const server = require('http').Server(app);
 const io = require('socket.io')(server);
 const mac = require('getmac');
-var HOST = '203.128.241.216';
+var HOST = '18.191.162.114';
 var PORT =  3000;
 var key ;
 var name;
