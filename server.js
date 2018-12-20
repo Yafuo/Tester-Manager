@@ -1,7 +1,7 @@
 var http = require('http');
 var net = require('net');
-var HOST = '127.0.0.1';
-var PORT = 8080;
+var HOST = '18.191.162.114';
+var PORT = 3000;
 //create a server object:
 http.createServer(function (req, res) {
   res.writeHead(200, {'Content-Type': 'text/html'});
