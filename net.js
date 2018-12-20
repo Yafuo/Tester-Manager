@@ -18,7 +18,7 @@ const emitter = new EventEmitter()
 emitter.setMaxListeners(50)
 //----------------------------KHAI BAO BIEN----------------------------------//
 var HOST = '18.191.162.114';
-var PORT =  80;
+var PORT =  3000;
 var key ;
 var name;
 var ThietBiChon = [];
@@ -32,8 +32,8 @@ var checkA=0;
 var checkB=0;
 var First_turn = 1;
 //Create app server 
-server.listen(80,function(){
-	console.log("Server is listening on port 80");
+server.listen(3000,function(){
+	console.log("Server is listening on port 3000");
 });
 
 app.set('view engine','ejs');
